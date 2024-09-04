@@ -8,21 +8,15 @@
 
 - **Manajemen Pengguna:**
   - Pelanggan dapat mendaftar, login, dan mengelola profil mereka.
-  - Administrator dapat mengelola data pelanggan, hotel, kamar, dan pemesanan.
+  - Administrator dapat mengelola data pelanggan, kamar, dan pemesanan.
 
 - **Pencarian dan Pemesanan Kamar:**
-  - Pengguna dapat mencari kamar berdasarkan berbagai kriteria seperti lokasi, tanggal check-in, harga, dan fasilitas.
-  - Pengguna dapat melihat detail kamar, termasuk gambar, deskripsi, dan ulasan sebelum melakukan pemesanan.
+  - Pengguna dapat mencari kamar berdasarkan berbagai kriteria seperti tanggal check-in, dan type kamar.
+  - Pengguna dapat melihat detail kamar, termasuk gambar, deskripsi, price.
 
 - **Manajemen Hotel dan Kamar:**
-  - Administrator dapat menambah, mengedit, dan menghapus informasi hotel dan kamar.
+  - Administrator dapat menambah, mengedit, dan menghapus informasi kamar.
   - Administrator juga dapat mengelola status ketersediaan kamar.
-
-- **Proses Pembayaran:**
-  - Integrasi dengan sistem pembayaran untuk memproses pemesanan dan pembayaran secara aman.
-
-- **Dashboard Admin:**
-  - Menyediakan laporan dan analitik seperti total pendapatan, pemesanan per hotel, dan pendapatan berdasarkan paket.
 
 ## Teknologi yang Digunakan
 
@@ -32,8 +26,6 @@
   - **Penyimpanan Gambar:** Gambar disimpan di direktori `static` dalam proyek Spring Boot dan diakses melalui URL.
 
 - **Frontend:** React
-  - **Styling:** Tailwind CSS untuk tampilan yang responsif dan modern.
+  - **Styling:** Tailwind CSS & CSS manual untuk tampilan yang responsif dan modern.
   - **Routing:** Menggunakan `react-router-dom` untuk navigasi antara halaman.
-
-- **Swagger:** Digunakan untuk mendokumentasikan dan menguji API.
 
